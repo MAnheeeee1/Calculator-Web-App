@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+}
+
+.calculator{
+    height: 300px;
+    background-color: aliceblue;
+    width: 50%;
+    padding: 5px;
+    
+}
+
+.display{
+    height: 50px;
+    background-color: aqua;
+}
+
+.input{
+    background-color: red;
+    height: 250px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.num.zero{
+    grid-area: 4 / 2 / 4 / 2;
+   
+}
+
+.num
+
+.num.equel{
+    grid-area: 4 /3 / 4/ 3
+}
