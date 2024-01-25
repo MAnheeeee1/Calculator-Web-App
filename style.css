@@ -20,18 +20,26 @@ body{
     height: 250px;
     padding-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
 
 }
 
 .num.zero{
     grid-area: 4 / 2 / 4 / 2;
-   
+    height: 50px;
 }
 
-.num
+.display{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
 
 .num.equel{
     grid-area: 4 /3 / 4/ 3
+}
+
+button{
+    border-radius: 10px;
 }
